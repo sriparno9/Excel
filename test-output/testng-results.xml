@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-23T15:48:50 IST" name="Default suite" finished-at="2024-02-23T15:49:03 IST" duration-ms="12194">
+    <groups>
+    </groups>
+    <test started-at="2024-02-23T15:48:50 IST" name="Default test" finished-at="2024-02-23T15:49:03 IST" duration-ms="12194">
+      <class name="LOGIN.Checklogin">
+        <test-method is-config="true" signature="iniittest()[pri:0, instance:LOGIN.Checklogin@6340e5f0]" started-at="2024-02-23T15:48:52 IST" name="iniittest" finished-at="2024-02-23T15:49:00 IST" duration-ms="8444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniittest -->
+        <test-method signature="validateloginfunc(java.lang.String,java.lang.String)[pri:0, instance:LOGIN.Checklogin@6340e5f0]" started-at="2024-02-23T15:49:00 IST" name="validateloginfunc" data-provider="suppleytetstcred" finished-at="2024-02-23T15:49:02 IST" duration-ms="2243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr552983]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bYsUgej]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginfunc -->
+        <test-method is-config="true" signature="cleantest()[pri:0, instance:LOGIN.Checklogin@6340e5f0]" started-at="2024-02-23T15:49:02 IST" name="cleantest" finished-at="2024-02-23T15:49:03 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleantest -->
+      </class> <!-- LOGIN.Checklogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
